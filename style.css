@@ -1,0 +1,61 @@
+/*
+Theme Name: Seos Football Child
+Theme URL: http://localhost:8084/WP/wordpress/
+Description: Seos Football Child
+Theme Author: Shaun
+Author URL: http://localhost:8084/WP/wordpress/
+Template: seos-football
+Version: 1.0.0
+Text Domain: seos-football-child
+*/
+
+/*Price colors (grey color)*/
+.woocommerce ul.products li.product .price, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product p.price, .woocommerce div.product span.price {
+	color: #969696;
+}
+
+/*The top search field (dark grey background)*/
+.seos-top-serach .search-form input {
+	background: #444;
+}
+
+/*Headet title (color white)*/
+header .site-branding .site-title a, header .header-img .site-title a, header .header-img .site-description, header .site-branding .site-description {
+	color: #ffffff;
+}
+
+/*Menu background change from tranperant to black*/
+.nav-center {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+/*The main page widget 'Upcoming Football Games' in the home page (red borders)*/
+#secondary .menu li a {
+	border-top: 1px solid #C61717;
+}
+
+/*The magnify button in the 'book now' page (transperent background)*/
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+	background: #fff;
+}
+
+/*The 'View cart' and the 'Checkout' buttons in the home page (grey background)*/
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+	background-color: #dfdcde;
+}
+
+
+/*The 'Description' and 'Reviews' words in the 'book now' (dark grey color)*/
+.woocommerce ul.products li.product .price, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #969696;
+}
+
+/*'sale' icon button in the the 'book now' page (dark red background)*/
+.woocommerce span.onsale {
+    background-color: #A80000;
+}
+
+/*'Add to cart' button in the the 'book now' page (light red background)*/
+.woocommerce ul.products li.product .button {
+    background-color: #C61717;
+}
